@@ -1,0 +1,10 @@
+auto: true
+server: true
+pygments: true
+exclude:
+  - README.md
+permalink: /:categories/:title
+baseurl: 
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]

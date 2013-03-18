@@ -168,13 +168,12 @@ body {
 }
 
 a {
-  color: #0088cc;
+  color: #333333;
   text-decoration: none;
 }
 
 a:hover {
-  color: #005580;
-  text-decoration: underline;
+  color: #535353;
 }
 
 .img-rounded {
@@ -553,6 +552,7 @@ a:hover {
 .container {
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 20px;
   *zoom: 1;
 }
 
@@ -719,6 +719,7 @@ h4 small {
 }
 
 .page-header {
+  height:80px;
   padding-bottom: 9px;
   margin: 20px 0 0px;
   /*border-bottom: 1px solid #eeeeee;*/
@@ -5921,4 +5922,26 @@ a.badge:hover {
 
 .sidenav li {
   display: block;
+}
+
+#about {
+  display:none;
+}
+
+.page-nav {
+  list-style:none;
+}
+.page-nav li{
+  float:left;
+  padding: 7px 10px 2px 2px;
+}
+.lead-link{
+  float:left;
+  margin-right:10px;
+  padding: 4px 10px 4px 4px;
+  border-right: 4px solid #ddd;
+}
+
+p a{
+  text-decoration: underline;
 }
