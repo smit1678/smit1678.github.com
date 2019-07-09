@@ -1,6 +1,6 @@
 auto: true
 server: true
-pygments: true
+highlighter: rouge
 exclude:
   - README.md
 permalink: /:categories/:title
