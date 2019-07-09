@@ -5,6 +5,6 @@ exclude:
   - README.md
 permalink: /:categories/:title
 baseurl: 
-markdown: rdiscount
+markdown: kramdown
 rdiscount:
   extensions: [smart]
